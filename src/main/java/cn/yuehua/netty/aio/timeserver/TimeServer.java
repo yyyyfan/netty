@@ -13,5 +13,20 @@ public class TimeServer {
 
         AsyncTimeServerHandler timeServer = new AsyncTimeServerHandler(port);
         new Thread(timeServer, "AIO-AsyncTimeServerHandler-001").start();
+        Thread t = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                while (true){
+                    //System.out.println("运行中...");
+                    try {
+                        Thread.sleep(2000);
+                    } catch (InterruptedException e){
+                        e.printStackTrace();
+                    }
+                }
+            }
+        });
+
+        t.start();
     }
 }
