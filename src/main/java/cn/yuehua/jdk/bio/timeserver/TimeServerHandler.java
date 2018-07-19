@@ -1,4 +1,4 @@
-package cn.yuehua.netty.bio.timeserver;
+package cn.yuehua.jdk.bio.timeserver;
 
 import java.io.BufferedReader;
 import java.io.IOException;

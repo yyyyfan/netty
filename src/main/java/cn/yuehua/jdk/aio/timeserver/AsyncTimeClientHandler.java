@@ -1,4 +1,4 @@
-package cn.yuehua.netty.aio.timeserver;
+package cn.yuehua.jdk.aio.timeserver;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;

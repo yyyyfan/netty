@@ -1,4 +1,4 @@
-package cn.yuehua.netty.aio.timeserver.echo;
+package cn.yuehua.jdk.aio.timeserver.echo;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;

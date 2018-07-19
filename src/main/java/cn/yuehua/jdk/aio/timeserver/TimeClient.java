@@ -1,4 +1,4 @@
-package cn.yuehua.netty.aio.timeserver;
+package cn.yuehua.jdk.aio.timeserver;
 
 public class TimeClient {
     public static void main(String[] args) {

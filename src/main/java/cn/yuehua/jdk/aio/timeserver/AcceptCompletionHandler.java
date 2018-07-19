@@ -1,4 +1,4 @@
-package cn.yuehua.netty.aio.timeserver;
+package cn.yuehua.jdk.aio.timeserver;
 
 import java.nio.ByteBuffer;
 import java.nio.channels.AsynchronousSocketChannel;
